@@ -1,0 +1,84 @@
+
+<!--
+  JQuery extension adapted from here: http://www.jeasyui.com/extension/ribbon.php
+ -->
+
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Command Maps</title>
+	<link rel="stylesheet" type="text/css" href="themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="ribbon.css">
+	<link rel="stylesheet" type="text/css" href="ribbon-icon.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="jquery.ribbon.js"></script>
+	<script type="text/javascript" src="variabledata.js"></script>
+
+	<script type="text/javascript">
+		$(function(){
+			$('#rr').ribbon({
+				data:data1
+			});
+		});
+
+		$(function(){
+			$('#rr2').ribbon({
+				data:data
+			});
+		});
+	</script>
+
+</head>
+<body>
+	<h1>CommandMaps</h1>
+	<button onclick=""> CommansMaps </button>
+	<div id="rr" style="width:700px;" onclick="console.log(Date.now());">
+	</div>
+
+	</br></br>
+
+	<h1>Ribbon</h1>
+	<div id="rr2" style="width:700px;"  onclick="console.log(Date.now());">
+	</div>
+
+	<table style = "margin-left:70%; margin-top:-30%;">
+		<tr>
+			<td> <b> Click in the order below: </b> </td>
+		</tr>
+		<tr>
+			<td> Paste </td>
+		</tr>
+		<tr id="td1">
+			<td> Underline </td>
+		</tr>
+		<tr id="td2">
+			<td> Find </td>
+		</tr>
+		<tr>
+			<td> Hyperlink </td>
+		</tr>
+		<tr>
+			<td> Table </td>
+		</tr>
+		<tr>
+			<td> Italics </td>
+		</tr>
+		<tr>
+			<td> Bullets </td>
+		</tr>
+		<tr>
+			<td> Shapes </td>
+		</tr>
+		<tr>
+			<td> Smart Art </td>
+		</tr>
+		<tr>
+			<td> Page Break </td>
+		</tr>
+	</table>
+
+</body>
+</html>
