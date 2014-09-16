@@ -718,7 +718,7 @@ var dictqueue = [
 	{name:'borders', text:'Borders'},
 	{name:'direction', text:'Text-direction'},
 	{name:'columns', text:'Columns'},
-	{name:'mail', text:'Mail'}
+	{name:'mail', text:'Mail'},
 	{name:'message', text:'Instant Message'},
 	{name:'print', text:'Print'},
 	{name:'blockauthors', text:'Block Authors'},
