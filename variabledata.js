@@ -633,7 +633,7 @@ var data = {
 						size:'large'
 					}]
 				},{
-					title:'textlayout',
+					title:'Text Layout',
 					tools:[{
 						name:'direction',
 						text:'Direction',
@@ -718,4 +718,10 @@ var dictqueue = [
 	{name:'borders', text:'Borders'},
 	{name:'direction', text:'Text-direction'},
 	{name:'columns', text:'Columns'},
+	{name:'mail', text:'Mail'}
+	{name:'message', text:'Instant Message'},
+	{name:'print', text:'Print'},
+	{name:'blockauthors', text:'Block Authors'},
+	{name:'documentprotection', text:'Document Protection'},
+	{name:'permissions', text:'Permissions'}
 ]
