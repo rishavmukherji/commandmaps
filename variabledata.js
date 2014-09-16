@@ -290,7 +290,7 @@ var data1 = {
 						size:'large'
 					}]
 				},{
-					title:'textlayout',
+					title:'Text Layout',
 					tools:[{
 						name:'direction',
 						text:'Direction',
