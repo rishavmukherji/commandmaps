@@ -594,3 +594,33 @@ var data = {
 				}]
 			}]
 		};
+
+var dictqueue = [
+	{name: 'paste', text:'Paste'},
+	{name:'underline', text:'Underline'},
+	{name:'find', text:'Find'},
+	{name:'hyperlink', text:'Hyperlink'},
+	{name:'table', text:'Table'},
+	{name:'italic', text:'Italics'},
+	{name:'bullets', text:'Bullets'},
+	{name:'shapes', text:'Shapes'},
+	{name:'smartart', text:'SmartArt'},
+	{name:'cut', text:'Cut'},
+	{name:'copy', text:'Copy'},
+	{name:'format', text:'Format'},
+	{name:'bold', text:'Bold'},
+	{name:'strikethrough', text:'Strikethrough'},
+	{name:'superscript', text:'Superscript'},
+	{name:'subscript', text:'subscript'},
+	{name:'picture', text:'Picture'},
+	{name:'clipart', text:'ClipArt'},
+	{name:'chart', text:'Chart'},
+	{name:'pagebreak', text:'Page Break'},
+	{name:'bookmark', text:'Bookmark'},
+	{name:'crossreference', text:'Cross-reference'},
+	{name:'watermark', text:'Watermark'},
+	{name:'color', text:'Color'},
+	{name:'borders', text:'Borders'},
+	{name:'direction', text:'Text-direction'},
+	{name:'columns', text:'Columns'},
+]

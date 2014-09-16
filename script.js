@@ -12,7 +12,6 @@ function init_queue(){
 		'bullets', 'shapes', 'smartart'];
 	queue = shuffle(queue);
 	$('#toClick').text(queue[0]);
-
 }
 
 
@@ -24,13 +23,6 @@ function button_pressed (name, target){
 		$('#toClick').text(queue[0]);
 		var timestamp = Date.now();
 		console.log (name + " " + "clicked at " + timestamp);
-		$.ajax({
-	      type: "POST",
-	      contentType: "application/json",
-	      url: "/info",
-	      data: { 'button': name, 'time': parseInt(timestamp) },
-	      dataType: "json"
-		});
 	}
 }
 
