@@ -198,6 +198,16 @@ var data1 = {
 						size:'large'
 					}]
 				},{
+					title:'Print',
+					tools:[{
+						type:'menubutton',
+						name:'print',
+						text:'Print',
+						iconCls:'icon-print-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				},{
 					title:'Illustrations',
 					tools:[{
 						name:'picture',
@@ -291,6 +301,42 @@ var data1 = {
 						name:'columns',
 						text:'Columns',
 						iconCls:'icon-columns-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				},{
+					title:'Protection',
+					tools:[{
+						name:'blockauthors',
+						text:'Block Authors',
+						iconCls:'icon-blockauthors-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'documentprotection',
+						text:'Protection',
+						iconCls:'icon-documentprotection-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'permissions',
+						text:'Permissions',
+						iconCls:'icon-permissions-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				},{
+					title: 'Share',
+					tools:[{
+						name:'message',
+						text:'Instant Message',
+						iconCls:'icon-message-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'mail',
+						text:'Mail',
+						iconCls:'icon-mail-large',
 						iconAlign:'top',
 						size:'large'
 					}]
@@ -484,6 +530,16 @@ var data = {
 							iconCls:'icon-select'
 						}]
 					}]
+				},{
+					title:'Print',
+					tools:[{
+						type:'menubutton',
+						name:'print',
+						text:'Print',
+						iconCls:'icon-print-large',
+						iconAlign:'top',
+						size:'large'
+					}]
 				}]
 			},{
 				title:'Insert',
@@ -588,6 +644,45 @@ var data = {
 						name:'columns',
 						text:'Columns',
 						iconCls:'icon-columns-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				}]
+			},{
+				title:'Review',
+				groups:[{
+					title:'Protection',
+					tools:[{
+						name:'blockauthors',
+						text:'Block Authors',
+						iconCls:'icon-blockauthors-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'documentprotection',
+						text:'Protection',
+						iconCls:'icon-documentprotection-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'permissions',
+						text:'Permissions',
+						iconCls:'icon-permissions-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				},{
+					title: 'Share',
+					tools:[{
+						name:'message',
+						text:'Instant Message',
+						iconCls:'icon-message-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'mail',
+						text:'Mail',
+						iconCls:'icon-mail-large',
 						iconAlign:'top',
 						size:'large'
 					}]

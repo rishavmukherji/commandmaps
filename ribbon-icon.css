@@ -122,3 +122,21 @@
 .icon-border-large{
 	background:url('images/32/border.gif') no-repeat center center;
 }
+.icon-blockauthors-large{
+	background:url('images/32/blockauthors.png') no-repeat center center;
+}
+.icon-documentprotection-large{
+	background:url('images/32/documentprotection.gif') no-repeat center center;
+}
+.icon-permissions-large{
+	background:url('images/32/permissions.gif') no-repeat center center;
+}
+.icon-message-large{
+	background:url('images/32/message.png') no-repeat center center;
+}
+.icon-mail-large{
+	background:url('images/32/mail.png') no-repeat center center;
+}
+.icon-print-large{
+	background:url('images/32/print.png') no-repeat center center;
+}
