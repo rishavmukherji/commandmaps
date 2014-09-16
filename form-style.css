@@ -1,4 +1,9 @@
+.form-page-body {
+	background-color: #33AD5C;
+}
 .form-container {
+	margin-left: 37.5%;
+	margin-top: 5%;
    border: 1px solid #f2e3d2;
    background: #c9b7a2;
    background: -webkit-gradient(linear, left top, left bottom, from(#f2e3d2), to(#c9b7a2));
