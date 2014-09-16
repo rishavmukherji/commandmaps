@@ -155,7 +155,9 @@
 	};
 	
 	$.fn.ribbon.defaults = $.extend({}, $.fn.tabs.defaults, {
-		onClick:function(name, target){}
+		onClick:function(name, target){
+			button_pressed(name, target);
+		}
 	});
 	
 	////////////////////////////////
