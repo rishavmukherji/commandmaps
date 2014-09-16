@@ -242,19 +242,19 @@ var data1 = {
 					tools:[{
 						name:'hyperlink',
 						text:'Hyperlink',
-						iconCls:'icon-pagebreak-large',
+						iconCls:'icon-hyperlink-large',
 						iconAlign:'top',
 						size:'large'
 					},{
 						name:'bookmark',
 						text:'Bookmark',
-						iconCls:'icon-pagebreak-large',
+						iconCls:'icon-bookmark-large',
 						iconAlign:'top',
 						size:'large'
 					},{
 						name:'crossreference',
 						text:'Cross-reference',
-						iconCls:'icon-pagebreak-large',
+						iconCls:'icon-crossreference-large',
 						iconAlign:'top',
 						size:'large'
 					}]
@@ -500,19 +500,19 @@ var data = {
 					tools:[{
 						name:'hyperlink',
 						text:'Hyperlink',
-						iconCls:'icon-pagebreak-large',
+						iconCls:'icon-hyperlink-large',
 						iconAlign:'top',
 						size:'large'
 					},{
 						name:'bookmark',
 						text:'Bookmark',
-						iconCls:'icon-pagebreak-large',
+						iconCls:'icon-bookmark-large',
 						iconAlign:'top',
 						size:'large'
 					},{
 						name:'crossreference',
 						text:'Cross-reference',
-						iconCls:'icon-pagebreak-large',
+						iconCls:'icon-crossreference-large',
 						iconAlign:'top',
 						size:'large'
 					}]
