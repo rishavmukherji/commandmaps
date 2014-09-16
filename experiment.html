@@ -1,0 +1,114 @@
+<!--
+  JQuery extension adapted from here: http://www.jeasyui.com/extension/ribbon.php
+ -->
+
+ <!DOCTYPE html>
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Command Maps</title>
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}ribbon.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}ribbon-icon.css">
+
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}form-style.css">
+	<script type="text/javascript" src="{{ STATIC_URL }}jquery.min.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}jquery.ribbon.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}variabledata.js"></script>
+		
+
+	<script type="text/javascript">
+		$(function(){
+			$('#rr').ribbon({
+				data:data1
+			});
+		});
+
+		$(function(){
+			$('#rr2').ribbon({
+				data:data
+			});
+		});
+	</script>
+
+    <style>
+
+    </style>
+
+
+</head>
+<body>
+	<h1>CommandMaps</h1>
+	<button onclick=""> CommansMaps </button>
+	<div id="rr" style="width:700px;" onclick="console.log(Date.now());">
+	</div>
+
+	</br></br>
+
+	<h1>Ribbon</h1>
+	<div id="rr2" style="width:700px;" >
+	</div>
+
+	<table style = "margin-left:70%; margin-top:-30%;">
+		<tr>
+			<td> <b> Click next: </b> </td>
+		</tr>
+		<tr>
+			<td id = "toClick"></td>
+		</tr>
+
+	</table>
+
+	<script >
+
+    var id = {{ id }}
+    var queue;
+    var last_click;
+    var command_map;
+
+    function init(){
+        //+ Jonas Raoni Soares Silva
+        //@ http://jsfromhell.com/array/shuffle [v1.0]
+        function shuffle(o){ //v1.0
+            for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+            return o;
+        }
+        queue = ['paste', 'underline', 'find', 'hyperlink', 'table', 'italic',
+            'bullets', 'shapes', 'smartart'];
+        queue = shuffle(queue);
+        $('#toClick').text(queue[0]);
+        last_click = Date.now();
+        command_map = false;
+    }
+
+
+    function button_pressed (name, target){
+
+        var correct = (name == queue[0]);
+        var timestamp = Date.now();
+
+        if (correct){
+            queue = queue.slice(1, queue.length);
+            $('#toClick').text(queue[0]);
+            console.log (name + " " + "clicked at " + timestamp);
+        }
+        var data = { 'button': name, 'time': timestamp, 'delta' : timestamp - last_click, 'session' : id,
+            'correct' : correct, 'interface' : command_map};
+        $.ajax({
+              type: "POST",
+              contentType: "application/json",
+              url: "/api",
+              data: JSON.stringify(data),
+              dataType: "json"
+            });
+        if (correct) {last_click = timestamp;}
+    }
+    init();
+</script>
+
+</body>
+
+</html>
