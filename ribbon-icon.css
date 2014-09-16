@@ -107,3 +107,18 @@
 .icon-crossreference-large{
 	background:url('images/32/crossreference.png') no-repeat center center;
 }
+.icon-direction-large{
+	background:url('images/32/direction.png') no-repeat center center;
+}
+.icon-columns-large{
+	background:url('images/32/columns.jpg') no-repeat center center;
+}
+.icon-watermark-large{
+	background:url('images/32/watermark.jpg') no-repeat center center;
+}
+.icon-color-large{
+	background:url('images/32/color.png') no-repeat center center;
+}
+.icon-border-large{
+	background:url('images/32/border.gif') no-repeat center center;
+}

@@ -258,6 +258,42 @@ var data1 = {
 						iconAlign:'top',
 						size:'large'
 					}]
+				},{
+					title:'Page Background',
+					tools:[{
+						name:'watermark',
+						text:'Watermark',
+						iconCls:'icon-watermark-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'color',
+						text:'Color',
+						iconCls:'icon-color-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'borders',
+						text:'Borders',
+						iconCls:'icon-border-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				},{
+					title:'textlayout',
+					tools:[{
+						name:'direction',
+						text:'Direction',
+						iconCls:'icon-direction-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'columns',
+						text:'Columns',
+						iconCls:'icon-columns-large',
+						iconAlign:'top',
+						size:'large'
+					}]
 				}]
 			}]
 		};
@@ -513,6 +549,45 @@ var data = {
 						name:'crossreference',
 						text:'Cross-reference',
 						iconCls:'icon-crossreference-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				}]
+			},{
+				title:'Layout',
+				groups:[{
+					title:'Page Background',
+					tools:[{
+						name:'watermark',
+						text:'Watermark',
+						iconCls:'icon-watermark-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'color',
+						text:'Color',
+						iconCls:'icon-color-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'borders',
+						text:'Borders',
+						iconCls:'icon-border-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				},{
+					title:'textlayout',
+					tools:[{
+						name:'direction',
+						text:'Direction',
+						iconCls:'icon-direction-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'columns',
+						text:'Columns',
+						iconCls:'icon-columns-large',
 						iconAlign:'top',
 						size:'large'
 					}]
