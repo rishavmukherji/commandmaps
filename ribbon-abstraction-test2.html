@@ -1,0 +1,57 @@
+<!--
+  JQuery extension adapted from here: http://www.jeasyui.com/extension/ribbon.php
+ -->
+
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Command Maps</title>
+		<link rel="stylesheet" type="text/css" href="themes/default/easyui.css">
+		<link rel="stylesheet" type="text/css" href="themes/icon.css">
+		<link rel="stylesheet" type="text/css" href="ribbon.css">
+		<link rel="stylesheet" type="text/css" href="ribbon-icon.css">
+		<link rel="stylesheet" type="text/css" href="form-style.css">
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.easyui.min.js"></script>
+		<script type="text/javascript" src="jquery.ribbon.js"></script>
+		<script type="text/javascript" src="variabledata2.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+
+		<script type="text/javascript">
+			
+
+			// function to populate the ribbon interface
+			$(function(){
+				$('#rr2').ribbon({
+					data:data
+				});
+			});
+
+			// function to hide and show divs
+			function show(div_id)
+			{
+				document.getElementById('commandmaps').style.display = 'none';
+				document.getElementById('ribbon').style.display = 'none';
+				document.getElementById('firstform').style.display = 'none';
+				document.getElementById('exitform').style.display = 'none';
+
+				document.getElementById(div_id).style.display = 'block';
+			}
+		</script>
+
+
+	</head>
+	<body>
+		
+
+		<!-- BROKEN_UP COMMANDMAPS -->
+		<div id="ribbon">
+			<h1>Ribbon</h1>
+			<div id="rr2" style="width:700px;" ></div>
+		</div>
+
+
+	</body>
+
+</html>

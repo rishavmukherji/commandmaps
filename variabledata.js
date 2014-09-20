@@ -186,6 +186,16 @@ var data1 = {
 					}]
 				// }]
 			 },{
+					title:'Print',
+					tools:[{
+						type:'menubutton',
+						name:'print',
+						text:'Print',
+						iconCls:'icon-print-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				},{
 				// title:'Insert',
 				// groups:[{
 					title:'Table',
@@ -194,16 +204,6 @@ var data1 = {
 						name:'table',
 						text:'Table',
 						iconCls:'icon-table-large',
-						iconAlign:'top',
-						size:'large'
-					}]
-				},{
-					title:'Print',
-					tools:[{
-						type:'menubutton',
-						name:'print',
-						text:'Print',
-						iconCls:'icon-print-large',
 						iconAlign:'top',
 						size:'large'
 					}]
