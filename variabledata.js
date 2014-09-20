@@ -1,5 +1,5 @@
 // Data for CommandMaps interface
-var data1 = {
+var home = {
 			selected:0,
 			tabs:[{
 				title:'Home',
@@ -184,8 +184,7 @@ var data1 = {
 							iconCls:'icon-select'
 						}]
 					}]
-				// }]
-			 },{
+				},{
 					title:'Print',
 					tools:[{
 						type:'menubutton',
@@ -195,9 +194,15 @@ var data1 = {
 						iconAlign:'top',
 						size:'large'
 					}]
-				},{
-				// title:'Insert',
-				// groups:[{
+				}]
+			}]
+		}
+
+var insert = {
+			selected:0,
+			tabs:[{
+				title:'Insert',
+				groups:[{
 					title:'Table',
 					tools:[{
 						type:'menubutton',
@@ -240,12 +245,6 @@ var data1 = {
 						iconCls:'icon-chart-large',
 						iconAlign:'top',
 						size:'large'
-					},{
-						name:'pagebreak',
-						text:'Page Break',
-						iconCls:'icon-pagebreak-large',
-						iconAlign:'top',
-						size:'large'
 					}]
 				},{
 					title:'Links',
@@ -265,6 +264,41 @@ var data1 = {
 						name:'crossreference',
 						text:'Cross-reference',
 						iconCls:'icon-crossreference-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				}]
+			}]
+		}
+
+var layout = {
+			selected:0,
+			tabs:[{
+				title:'Layout',
+				groups:[{
+					title:'Page Setup',
+					tools:[{
+						name:'margins',
+						text:'Margins',
+						iconCls:'icon-margins-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'size',
+						text:'Size',
+						iconCls:'icon-size-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'orientation',
+						text:'Orientation',
+						iconCls:'icon-orientation-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'pagebreak',
+						text:'Page Break',
+						iconCls:'icon-pagebreak-large',
 						iconAlign:'top',
 						size:'large'
 					}]
@@ -304,7 +338,15 @@ var data1 = {
 						iconAlign:'top',
 						size:'large'
 					}]
-				},{
+				}]
+			}]
+		}
+
+var review = {
+			selected:0,
+			tabs:[{
+				title:'Review',
+				groups:[{
 					title:'Protection',
 					tools:[{
 						name:'blockauthors',
@@ -340,9 +382,34 @@ var data1 = {
 						iconAlign:'top',
 						size:'large'
 					}]
+				},{
+					title: 'Comments',
+					tools:[{
+						name:'newcomment',
+						text:'New Comment',
+						iconCls:'icon-newcomment-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'deletecomment',
+						text:'Delete Comment',
+						iconCls:'icon-deletecomment-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				},{
+					title:'Changes',
+					tools:[{
+						name:'reviewpane',
+						text:'Review Pane',
+						iconCls:'icon-reviewpane-large',
+						iconAlign:'top',
+						size:'large'
+					}]
 				}]
 			}]
 		};
+		
 
 // Data for ribbon interface
 var data = {
@@ -612,6 +679,33 @@ var data = {
 			},{
 				title:'Layout',
 				groups:[{
+					title:'Page Setup',
+					tools:[{
+						name:'margins',
+						text:'Margins',
+						iconCls:'icon-margins-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'size',
+						text:'Size',
+						iconCls:'icon-size-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'orientation',
+						text:'Orientation',
+						iconCls:'icon-orientation-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'pagebreak',
+						text:'Page Break',
+						iconCls:'icon-pagebreak-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				},{
 					title:'Page Background',
 					tools:[{
 						name:'watermark',
@@ -686,6 +780,30 @@ var data = {
 						iconAlign:'top',
 						size:'large'
 					}]
+				},{
+					title: 'Comments',
+					tools:[{
+						name:'newcomment',
+						text:'New Comment',
+						iconCls:'icon-newcomment-large',
+						iconAlign:'top',
+						size:'large'
+					},{
+						name:'deletecomment',
+						text:'Delete Comment',
+						iconCls:'icon-deletecomment-large',
+						iconAlign:'top',
+						size:'large'
+					}]
+				},{
+					title:'Changes',
+					tools:[{
+						name:'reviewpane',
+						text:'Review Pane',
+						iconCls:'icon-reviewpane-large',
+						iconAlign:'top',
+						size:'large'
+					}]
 				}]
 			}]
 		};
@@ -723,5 +841,12 @@ var dictqueue = [
 	{name:'print', text:'Print'},
 	{name:'blockauthors', text:'Block Authors'},
 	{name:'documentprotection', text:'Document Protection'},
-	{name:'permissions', text:'Permissions'}
+	{name:'permissions', text:'Permissions'},
+	{name:'margins', text:'Margins'},
+	{name:'size', text:'Size'},
+	{name:'orientation', text:'Orientation'},
+	{name:'pagebreak', text:'Page Break'},
+	{name:'newcomment', text:'New Comment'},
+	{name:'deletecomment', text:'Delete Comment'},
+	{name:'reviewpane', text:'Review Pane'},
 ]

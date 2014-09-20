@@ -15,18 +15,66 @@
 		<script type="text/javascript" src="jquery.min.js"></script>
 		<script type="text/javascript" src="jquery.easyui.min.js"></script>
 		<script type="text/javascript" src="jquery.ribbon.js"></script>
-		<script type="text/javascript" src="variabledata2.js"></script>
+		<script type="text/javascript" src="variabledata.js"></script>
 		<script type="text/javascript" src="script.js"></script>
-
+		<script type="text/javascript" src="shortcuts.js"></script>
 		<script type="text/javascript">
 			
 
 			// function to populate the ribbon interface
 			$(function(){
-				$('#rr2').ribbon({
-					data:data
+				$('#rr').ribbon({
+					data:home
 				});
 			});
+			$(function(){
+				$('#rr2').ribbon({
+					data:insert
+				});
+			});
+			$(function(){
+				$('#rr3').ribbon({
+					data:layout
+				});
+			});
+			$(function(){
+				$('#rr4').ribbon({
+					data:review
+				});
+			});
+
+			function showMaps() {
+				var element = document.getElementById('ribbon-home');
+				if (element.style.display == 'none')
+					element.style.display = 'block';
+				else
+					element.style.display = 'none';
+
+				var element = document.getElementById('ribbon-insert');
+				if (element.style.display == 'none')
+					element.style.display = 'block';
+				else
+					element.style.display = 'none';
+
+				var element = document.getElementById('ribbon-layout');
+				if (element.style.display == 'none')
+					element.style.display = 'block';
+				else
+					element.style.display = 'none';
+
+				var element = document.getElementById('ribbon-review');
+				if (element.style.display == 'none')
+					element.style.display = 'block';
+				else
+					element.style.display = 'none';
+
+			}
+			
+			function initKeys() {
+            shortcut.add("1", function() {
+                showMaps();
+            })
+        }
 
 			// function to hide and show divs
 			function show(div_id)
@@ -38,6 +86,8 @@
 
 				document.getElementById(div_id).style.display = 'block';
 			}
+
+			window.onload = initKeys;
 		</script>
 
 
@@ -45,10 +95,20 @@
 	<body>
 		
 
+		<button id = "showCommandMaps" onclick="showMaps();"> CommandMaps </button>
+
 		<!-- BROKEN_UP COMMANDMAPS -->
-		<div id="ribbon">
-			<h1>Ribbon</h1>
+		<div id="ribbon-home">
+			<div id="rr" style="width:700px;" ></div>
+		</div>
+		<div id="ribbon-insert">
 			<div id="rr2" style="width:700px;" ></div>
+		</div>
+		<div id="ribbon-layout">
+			<div id="rr3" style="width:700px;" ></div>
+		</div>
+		<div id="ribbon-review">
+			<div id="rr4" style="width:700px;" ></div>
 		</div>
 
 

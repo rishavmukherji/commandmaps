@@ -1,5 +1,5 @@
 // Data for ribbon interface
-var data = {
+var home = {
 			selected:0,
 			tabs:[{
 				title:'Home',
@@ -198,7 +198,9 @@ var data = {
 			}]
 		}
 
-		/*,{
+var insert = {
+			selected:0,
+			tabs:[{
 				title:'Insert',
 				groups:[{
 					title:'Table',
@@ -266,7 +268,12 @@ var data = {
 						size:'large'
 					}]
 				}]
-			},{
+			}]
+		}
+
+var layout = {
+			selected:0,
+			tabs:[{
 				title:'Layout',
 				groups:[{
 					title:'Page Background',
@@ -305,7 +312,12 @@ var data = {
 						size:'large'
 					}]
 				}]
-			},{
+			}]
+		}
+
+var review = {
+			selected:0,
+			tabs:[{
 				title:'Review',
 				groups:[{
 					title:'Protection',
@@ -346,4 +358,4 @@ var data = {
 				}]
 			}]
 		};
-		*/
+		

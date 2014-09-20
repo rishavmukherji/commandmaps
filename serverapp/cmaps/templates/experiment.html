@@ -18,20 +18,73 @@
 	<script type="text/javascript" src="../static/jquery.easyui.min.js"></script>
 	<script type="text/javascript" src="../static/jquery.ribbon.js"></script>
 	<script type="text/javascript" src="../static/variabledata.js"></script>
+	<script type="text/javascript" src="../static/shortcuts.js"></script>
 		
 
 	<script type="text/javascript">
-		$(function(){
-			$('#rr').ribbon({
-				data:data1
+		
+		// function to populate the ribbon interface
+			$(function(){
+				$('#rr').ribbon({
+					data:home
+				});
 			});
-		});
+			$(function(){
+				$('#rr2').ribbon({
+					data:insert
+				});
+			});
+			$(function(){
+				$('#rr3').ribbon({
+					data:layout
+				});
+			});
+			$(function(){
+				$('#rr4').ribbon({
+					data:review
+				});
+			});
 
-		$(function(){
-			$('#rr2').ribbon({
-				data:data
+			$(function(){
+				$('#rr5').ribbon({
+					data:data
+				});
 			});
-		});
+
+			function showMaps() {
+				var element = document.getElementById('ribbon-home');
+				if (element.style.display == 'none')
+					element.style.display = 'block';
+				else
+					element.style.display = 'none';
+
+				var element = document.getElementById('ribbon-insert');
+				if (element.style.display == 'none')
+					element.style.display = 'block';
+				else
+					element.style.display = 'none';
+
+				var element = document.getElementById('ribbon-layout');
+				if (element.style.display == 'none')
+					element.style.display = 'block';
+				else
+					element.style.display = 'none';
+
+				var element = document.getElementById('ribbon-review');
+				if (element.style.display == 'none')
+					element.style.display = 'block';
+				else
+					element.style.display = 'none';
+
+			}
+			
+			function initKeys() {
+	            shortcut.add("1", function() {
+	                showMaps();
+	            })
+	        }
+
+			window.onload = initKeys;
 	</script>
 
     <style>
@@ -44,12 +97,24 @@
         <div id="target"><h4>Click the following command: <text style="font-size:22px;" id="toClick"></text></h4></div>
 		<!-- COMMAND MAPS -->
 		<div id="commandmaps">
-			<div id="rr" style="width:700px;" onclick="console.log(Date.now());"></div>
+			<button id = "showCommandMaps" onclick="showMaps();"> CommandMaps </button>
+			<div id="ribbon-home">
+				<div id="rr" style="width:700px;" ></div>
+			</div>
+			<div id="ribbon-insert">
+				<div id="rr2" style="width:700px;" ></div>
+			</div>
+			<div id="ribbon-layout">
+				<div id="rr3" style="width:700px;" ></div>
+			</div>
+			<div id="ribbon-review">
+				<div id="rr4" style="width:700px;" ></div>
+			</div>
 		</div>
 
 		<!-- RIBBON -->
 		<div id="ribbon">
-			<div id="rr2" style="width:700px;" ></div>
+			<div id="rr5" style="width:700px;" ></div>
 		</div>
 
 		<!-- LIST OF TASKS -->
@@ -72,7 +137,7 @@
 				<input type="radio" name="gender" id = "other" value="other">
 				<label for="other">Other</label> </br>
 				<br />
-				<div class="form-title">Country</div>
+				<div class="form-title">In which country have you lived the most in the last 5 years?</div>
 
 				<select name="country">
 					<option value="">Country...</option>

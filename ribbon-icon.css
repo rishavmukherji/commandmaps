@@ -140,3 +140,21 @@
 .icon-print-large{
 	background:url('images/32/print.png') no-repeat center center;
 }
+.icon-newcomment-large{
+	background:url('images/32/newcomment.jpg') no-repeat center center;
+}
+.icon-deletecomment-large{
+	background:url('images/32/deletecomment.png') no-repeat center center;
+}
+.icon-reviewpane-large{
+	background:url('images/32/reviewpane.gif') no-repeat center center;
+}
+.icon-margins-large{
+	background:url('images/32/margins.png') no-repeat center center;
+}
+.icon-size-large{
+	background:url('images/32/size.png') no-repeat center center;
+}
+.icon-orientation-large{
+	background:url('images/32/orientation.jpg') no-repeat center center;
+}
