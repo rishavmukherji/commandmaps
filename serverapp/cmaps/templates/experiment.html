@@ -79,7 +79,7 @@
 			}
 			
 			function initKeys() {
-	            shortcut.add("1", function() {
+	            shortcut.add("x", function() {
 	                showMaps();
 	            })
 	        }
@@ -400,14 +400,28 @@
 		<div id="exitform" style="margin-top:0%;">
 			<form id ="betterform" class="form-container">
 				<div class="form-title">
-					<h2>Which interface did you prefer?</h2>
+					<h3>Grade the CommandMaps interface</h3>
+	                <select name="commandmaps-grade">
+	                	<option value="">Grade...</option>
+	                	<option value="1">1. Excellent </option>
+	                	<option value="2">2. Very Good </option>
+	                	<option value="3">3. Average </option>
+	                	<option value="4">4. Unsatisfactory </option>
+	                	<option value="5">5. Terrible </option>
+	                </select>
+					<br />
+					<br/>
+					<h3>Grade the Microsoft Ribbon interface</h3>
+                    <select name="ribbon-grade">
+                    	<option value="">Grade...</option>
+                    	<option value="1">1. Excellent </option>
+                    	<option value="2">2. Very Good </option>
+                    	<option value="3">3. Average </option>
+                    	<option value="4">4. Unsatisfactory </option>
+                    	<option value="5">5. Terrible </option>
+                    </select>
+					<br />
 				</div>
-				<br />
-                    <input type="radio" name="better" id = "pcommandmaps" value="commandmaps">
-                    <label for = "pcommandmaps">CommandMaps</label>
-                    <input type="radio" name="better" id  = "pribbon" value="ribbon">
-                    <label for="pribbon">MS Word Ribbon</label>
-				<br />
 				<div class="submit-container">
 					<input class="submit-button" onclick ="submit_exitform()"  value="Finish" />
 				</div>
