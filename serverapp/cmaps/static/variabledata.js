@@ -807,15 +807,22 @@ var data = {
 				}]
 			}]
 		};
-
+// buttons to add to dict: replace, select, font increase size, font decrease size, the A+ and A- icons
 var dictqueue = [
 	{name: 'paste', text:'Paste', group:'home'},
+	{name: 'bold', text:'Bold', group:'home'},
+	{name: 'slign-left', text:'Align Left', group:'home'},
+	{name: 'align-right', text:'Align Right', group:'home'},
+	{name: 'align-center', text:'Align Center', group:'home'},
+	{name: 'align-justify', text:'Align Justify', group:'home'},
 	{name:'underline', text:'Underline', group:'home'},
 	{name:'find', text:'Find', group:'home'},
 	{name:'hyperlink', text:'Hyperlink', group:'insert'},
+	{name: 'replace', text:'Replace', group:'home'},
 	{name:'table', text:'Table', group:'insert'},
 	{name:'italic', text:'Italics', group:'home'},
 	{name:'bullets', text:'Bullets', group:'home'},
+	{name: 'numbers', text:'Numbers', group:'home'},
 	{name:'shapes', text:'Shapes', group:'insert'},
 	{name:'smartart', text:'SmartArt', group:'insert'},
 	{name:'cut', text:'Cut', group:'home'},
