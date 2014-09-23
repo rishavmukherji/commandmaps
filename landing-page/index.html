@@ -17,13 +17,18 @@
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <script type="text/javascript">
 
+        function validate(theForm) {
+            if (consentForm.consent.checked == false) 
+            {
+                alert ('You didn\'t choose the checkbox!');
+                return false;
+            } else {    
+                return true;
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -31,35 +36,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <!--
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
-            </div>
-            -->
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <!--
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            -->
-            <!-- /.navbar-collapse -->
+            
         </div>
         <!-- /.container -->
     </nav>
@@ -111,15 +88,19 @@
                 Take the test! Use both Microsoft's Ribbon and then the CommandMap interface. Compare the results to see what works best for you. 
                 <br> <br>
                 <b> Directions: </b>
-                <ul>
-                    <li> Once you click "Take the Test" button, it will take you to the test page. </li>
-                    <li> The test page will feature the CommandMaps on the top and the MS ribbon on the bottom. </li>
-                    <li> On the right side of the page, there will be a function named that you will have to find and click on both interfaces. </li>
-                    <li> Once you click on the right function, the next one will appear on the list. You will need to do this a total of ten times to finis h the test. It should take about two minutes. </li>
-                </ul>
+                <form name="consentForm" action="http://commandmaps279.herokuapp.com/go">
+                    <ul>
+                        <li> Once you click "Take the Test" button, it will take you to the test page. </li>
+                        <li> The test page will feature the CommandMaps on the top and the MS ribbon on the bottom. </li>
+                        <li> On the right side of the page, there will be a function named that you will have to find and click on both interfaces. </li>
+                        <li> Once you click on the right function, the next one will appear on the list. You will need to do this a total of ten times to finis h the test. It should take about two minutes. </li>
+                        <li>
+                            <input type="checkbox" required name="consent" value="consent"> <a href="https://www.dropbox.com/s/y3nmlvifrc0czr9/CommandMapConsentForm.doc?dl=0"> I consent to participate in this research study </a> 
+                        </li>
+                    </ul>
 
-                <a href="#" class="take-test">Take the Test!</a>
-
+                    <input type="SUBMIT" class ="take-test"> 
+                </form>
             </p>
         </div>
 
