@@ -103,28 +103,28 @@
 	        // Create the data table.
 	        var data1 = new google.visualization.DataTable();
 	        data1.addColumn('string', 'Topping');
-	        data1.addColumn('number', 'Average time in seconds');
+	        data1.addColumn('number', 'Average time');
 	        data1.addRows([
-	          ['You', userData['cmap_all']],
-	          ['Harvard Students', 1]
+	          ['You', (userData['cmap_all'])/1000],
+	          ['Harvard Students', 2.776]
 	        ]);
 
 	        // Create the data table.
 	        var data2 = new google.visualization.DataTable();
 	        data2.addColumn('string', 'Topping');
-	        data2.addColumn('number', 'Average time in seconds');
+	        data2.addColumn('number', 'Average time');
 	        data2.addRows([
-	          ['You', userData['ribbon_all']],
-	          ['Harvard Students', 1]
+	          ['You', (userData['ribbon_all'])/1000],
+	          ['Harvard Students', 3.214]
 	        ]);
 	        // Set chart options
 	        var options1 = {'title':'Average time taken to find targets on CommandMaps',
-	                       'width':600,
-	                       'height':300};
+	                       'width':700,
+	                       'height':400};
 
 	        var options2 = {'title':'Average time taken to find targets on the Ribbon',
-	                       'width':600,
-	                       'height':300};
+	                       'width':700,
+	                       'height':400};
 
 	        // Instantiate and draw our first chart, passing in some options.
 	        var chart1 = new google.visualization.BarChart(document.getElementById('chart_div1'));
@@ -964,9 +964,29 @@
     }
 
     function showResults() {
-    	$.getJSON('commandmaps279.herokuapp.com/viewuser/'.concat(id), function(userData){
-    		return userData;
-    	}
+    	// $.getJSON('commandmaps279.herokuapp.com/viewuser/'.concat(id), function(userData){
+    		// return userData;
+    		var test = {
+			    "ribbon_switch": 2240.0, 
+			    "ribbon_all": 3557.4285714285716, 
+			    "cmap_all": 4000, 
+			    "gender": "male", 
+			    "age": "21", 
+			    "misc": null, 
+			    "cmap_switch": 0, 
+			    "ribbon_errors": 3, 
+			    "cmap_errors": 0, 
+			    "session": 184, 
+			    "cmap_no_switch": 0, 
+			    "ribbon_no_switch": 3777.0, 
+			    "country": "United States of America", 
+			    "cmap": 1, 
+			    "mouse": "trackpad", 
+			    "id": 2, 
+			    "ribbon": 3
+			};
+			return test;
+    	// }
     }
 
     show('firstform');
