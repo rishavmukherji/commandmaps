@@ -13,13 +13,15 @@ class Click(models.Model):
 
 class Exit(models.Model):
     session = models.ForeignKey('Session')
-    answer = models.CharField(max_length=300)
+    cmap = models.IntegerField()
+    ribbon = models.IntegerField()
 
 class User(models.Model):
     age = models.CharField(max_length = 300)
     gender = models.CharField(max_length=300)
     country = models.CharField(max_length= 300)
     session = models.ForeignKey('Session')
+    mouse = models.CharField(max_length= 300)
     misc = models.CharField(max_length=3000, null = True)
 
 class Session(models.Model):
