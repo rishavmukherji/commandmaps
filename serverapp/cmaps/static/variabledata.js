@@ -807,53 +807,84 @@ var data = {
 				}]
 			}]
 		};
-// buttons to add to dict: replace, select, font increase size, font decrease size, the A+ and A- icons
+
 var dictqueue = [
-	{name: 'paste', text:'Paste', group:'home'},
-	{name: 'bold', text:'Bold', group:'home'},
-	{name: 'slign-left', text:'Align Left', group:'home'},
-	{name: 'align-right', text:'Align Right', group:'home'},
-	{name: 'align-center', text:'Align Center', group:'home'},
-	{name: 'align-justify', text:'Align Justify', group:'home'},
-	{name:'underline', text:'Underline', group:'home'},
-	{name:'find', text:'Find', group:'home'},
-	{name:'hyperlink', text:'Hyperlink', group:'insert'},
-	{name: 'replace', text:'Replace', group:'home'},
-	{name:'table', text:'Table', group:'insert'},
-	{name:'italic', text:'Italics', group:'home'},
-	{name:'bullets', text:'Bullets', group:'home'},
-	{name: 'numbers', text:'Numbers', group:'home'},
-	{name:'shapes', text:'Shapes', group:'insert'},
-	{name:'smartart', text:'SmartArt', group:'insert'},
-	{name:'cut', text:'Cut', group:'home'},
-	{name:'copy', text:'Copy', group:'home'},
-	{name:'format', text:'Format', group:'home'},
-	{name:'bold', text:'Bold', group:'home'},
-	{name:'strikethrough', text:'Strikethrough', group:'home'},
-	{name:'superscript', text:'Superscript', group:'home'},
-	{name:'subscript', text:'subscript', group:'home'},
-	{name:'picture', text:'Picture', group:'insert'},
-	{name:'clipart', text:'ClipArt', group:'insert'},
+	{name: 'paste', text:'Paste'},
+	{name:'underline', text:'Underline'},
+	{name:'find', text:'Find'},
+	{name:'hyperlink', text:'Hyperlink'},
+	{name:'table', text:'Table'},
+	{name:'italic', text:'Italics'},
+	{name:'bullets', text:'Bullets'},
+	{name:'shapes', text:'Shapes'},
+	{name:'smartart', text:'SmartArt'},
+	{name:'cut', text:'Cut'},
+	{name:'copy', text:'Copy'},
+	{name:'format', text:'Format'},
+	{name:'bold', text:'Bold'},
+	{name:'strikethrough', text:'Strikethrough'},
+	{name:'superscript', text:'Superscript'},
+	{name:'subscript', text:'subscript'},
+	{name:'picture', text:'Picture'},
+	{name:'clipart', text:'ClipArt'},
 	{name:'chart', text:'Chart'},
-	{name:'pagebreak', text:'Page Break', group:'layout'},
-	{name:'bookmark', text:'Bookmark', group:'bookmark'},
-	{name:'crossreference', text:'Cross-reference', group:'review'},
-	{name:'watermark', text:'Watermark', group:'layout'},
-	{name:'color', text:'Color', group:'layout'},
-	{name:'borders', text:'Borders', group:'layout'},
-	{name:'direction', text:'Text-direction', group:'layout'},
-	{name:'columns', text:'Columns', group:'layout'},
-	{name:'mail', text:'Mail', group:'review'},
-	{name:'message', text:'Instant Message', group:'review'},
-	{name:'print', text:'Print', group:'home'},
-	{name:'blockauthors', text:'Block Authors', group:'review'},
-	{name:'documentprotection', text:'Document Protection', group:'review'},
-	{name:'permissions', text:'Permissions', group:'review'},
-	{name:'margins', text:'Margins', group:'layout'},
-	{name:'size', text:'Size', group:'layout'},
-	{name:'orientation', text:'Orientation', group:'layout'},
-	{name:'pagebreak', text:'Page Break', group:'layout'},
-	{name:'newcomment', text:'New Comment', group:'review'},
-	{name:'deletecomment', text:'Delete Comment', group:'review'},
-	{name:'reviewpane', text:'Review Pane', group:'review'},
-]
+	{name:'pagebreak', text:'Page Break'},
+	{name:'bookmark', text:'Bookmark'},
+	{name:'crossreference', text:'Cross-reference'},
+	{name:'watermark', text:'Watermark'},
+	{name:'color', text:'Color'},
+	{name:'borders', text:'Borders'},
+	{name:'direction', text:'Text-direction'},
+	{name:'columns', text:'Columns'},
+	{name:'mail', text:'Mail'},
+	{name:'message', text:'Instant Message'},
+	{name:'print', text:'Print'},
+	{name:'blockauthors', text:'Block Authors'},
+	{name:'documentprotection', text:'Document Protection'},
+	{name:'permissions', text:'Permissions'},
+	{name:'margins', text:'Margins'},
+	{name:'size', text:'Size'},
+	{name:'orientation', text:'Orientation'},
+	{name:'pagebreak', text:'Page Break'},
+	{name:'newcomment', text:'New Comment'},
+	{name:'deletecomment', text:'Delete Comment'},
+	{name:'reviewpane', text:'Review Pane'}
+];
+
+//
+//dictqueue = [
+//	{name:'find', text:'Find'}, //1
+//	{name:'hyperlink', text:'Hyperlink'}, //2
+//	{name:'bullets', text:'Bullets'}, //1
+//	{name:'shapes', text:'Shapes'}, //2
+//	{name:'smartart', text:'SmartArt'}, //2
+//	{name:'copy', text:'Copy'}, //1
+//	{name:'bold', text:'Bold'}, //1
+//	{name:'strikethrough', text:'Strikethrough'}, //1
+//    {name:'borders', text:'Borders'}, //3
+//	{name:'clipart', text:'ClipArt'}, //2
+//	{name:'columns', text:'Columns'}, //3
+//	{name:'margins', text:'Margins'}, //3
+//	{name:'orientation', text:'Orientation'}, //4
+//	{name:'newcomment', text:'New Comment'}, //4
+//    {name:'reviewpane', text:'Review Pane'} //4
+//];
+//
+//
+//dictqueue = [
+//	{name:'find', text:'Find'}, //1
+//	{name:'hyperlink', text:'Hyperlink'}, //2
+//	{name:'bullets', text:'Bullets'}, //1
+//	{name:'shapes', text:'Shapes'}, //2
+//	{name:'smartart', text:'SmartArt'}, //2
+//	{name:'copy', text:'Copy'}, //1
+//	{name:'bold', text:'Bold'}, //1
+//	{name:'strikethrough', text:'Strikethrough'}, //1
+//    {name:'borders', text:'Borders'}, //3
+//	{name:'clipart', text:'ClipArt'}, //2
+//	{name:'columns', text:'Columns'}, //3
+//	{name:'margins', text:'Margins'}, //3
+//	{name:'orientation', text:'Orientation'}, //4
+//	{name:'newcomment', text:'New Comment'}, //4
+//    {name:'reviewpane', text:'Review Pane'} //4
+//];

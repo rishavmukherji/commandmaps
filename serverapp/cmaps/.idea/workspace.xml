@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31db2fb2-ed83-4160-a5fd-fde94266d188" name="Default" comment="" />
+    <list default="true" id="31db2fb2-ed83-4160-a5fd-fde94266d188" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/experiment2.html" afterPath="$PROJECT_DIR$/templates/experiment2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/script.js" afterPath="$PROJECT_DIR$/static/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmaps/settings.py" afterPath="$PROJECT_DIR$/cmaps/settings.py" />
+    </list>
     <ignored path="cmaps.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410719334822" ignored="false" />
+    <file path="/Dummy.txt" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1411689628904" ignored="false" />
     <file path="/Django Console" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410719358986" ignored="false" />
-    <file path="/models.py" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410847447114" ignored="false" />
-    <file path="/local_settings.py" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410828919489" ignored="false" />
-    <file path="/urls.py" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410847584378" ignored="false" />
-    <file path="/views.py" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410853199901" ignored="false" />
+    <file path="/models.py" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1411416648812" ignored="false" />
+    <file path="/local_settings.py" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1411710982839" ignored="false" />
+    <file path="/urls.py" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1411698172822" ignored="false" />
+    <file path="/views.py" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1411709084068" ignored="false" />
     <file path="/start.html" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410829206360" ignored="false" />
-    <file path="/experiment.html" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410893374550" ignored="false" />
-    <file path="/script.js" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410830371514" ignored="false" />
-    <file path="/landing.html" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410835608769" ignored="false" />
+    <file path="/experiment.html" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1411416547105" ignored="false" />
+    <file path="/script.js" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1411765360694" ignored="false" />
+    <file path="/landing.html" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1411710319502" ignored="false" />
     <file path="/forms.html" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410847819750" ignored="false" />
     <file path="/admin.py" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410848997640" ignored="false" />
     <file path="$PROJECT_DIR$/../commandmaps/variabledata.js" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410898074692" ignored="false" />
     <file path="/ribbon.css" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1410898190094" ignored="false" />
+    <file path="/variabledata.js" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1411412424185" ignored="false" />
+    <file path="/experiment2.html" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1411765683544" ignored="false" />
+    <file path="/settings.py" changelist="31db2fb2-ed83-4160-a5fd-fde94266d188" time="1411751570669" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,64 +44,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment/models.py">
+      <file leaf-file-name="experiment.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/experiment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="389" selection-end="503" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiment/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="18" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0">
+            <state line="96" column="26" selection-start="2488" selection-end="2488" vertical-scroll-proportion="-5.78">
               <folding>
-                <element signature="e#26#78#0" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#text#0;n#h4#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#h4#1;n#div#0;n#form#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experiment.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/experiment.html">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmaps/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="23" selection-start="1890" selection-end="1895" vertical-scroll-proportion="-3.9">
+            <state line="23" column="12" selection-start="785" selection-end="785" vertical-scroll-proportion="-4.923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experiment2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/experiment2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="163" column="51" selection-start="5274" selection-end="5274" vertical-scroll-proportion="-43.2">
               <folding>
-                <element signature="n#style#0;n#text#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#text#0;n#h4#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#h4#1;n#div#0;n#form#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.ribbon.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/jquery.ribbon.js">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="70" selection-start="2566" selection-end="2571" vertical-scroll-proportion="-13.576923">
+            <state line="38" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.36272544">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ribbon.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/ribbon.css">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiment/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="25" selection-start="446" selection-end="446" vertical-scroll-proportion="0.53892213">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ribbon-abstraction-test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../commandmaps/ribbon-abstraction-test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="379" column="11" selection-start="1571" selection-end="16434" vertical-scroll-proportion="-209.625">
+            <state line="6" column="35" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,89 +125,7 @@
       <file leaf-file-name="variabledata.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/variabledata.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1410897906000" expanded="true" signature="5181:5268" placeholder="{&quot;name&quot;: 'picture'...}" />
-                <marker date="1410897906000" expanded="true" signature="5269:5404" placeholder="{&quot;name&quot;: 'clipart'...}" />
-                <marker date="1410897906000" expanded="true" signature="5405:5574" placeholder="{&quot;name&quot;: 'shapes'...}" />
-                <marker date="1410897906000" expanded="true" signature="6031:6144" placeholder="{&quot;name&quot;: 'hyperlink'...}" />
-                <marker date="1410897906000" expanded="true" signature="7545:8266" placeholder="{&quot;title&quot;: 'Clipboard'...}" />
-                <marker date="1410897906000" expanded="true" signature="7586:8250" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="7587:7892" placeholder="{&quot;name&quot;: 'paste'...}" />
-                <marker date="1410897906000" expanded="true" signature="7736:7874" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="7737:7798" placeholder="{&quot;name&quot;: 'paste'...}" />
-                <marker date="1410897906000" expanded="true" signature="7799:7873" placeholder="{&quot;name&quot;: 'paste-special'...}" />
-                <marker date="1410897906000" expanded="true" signature="7893:8249" placeholder="{&quot;type&quot;: 'toolbar'...}" />
-                <marker date="1410897906000" expanded="true" signature="7957:8174" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="7958:8020" placeholder="{&quot;name&quot;: 'cut'...}" />
-                <marker date="1410897906000" expanded="true" signature="8021:8083" placeholder="{&quot;name&quot;: 'copy'...}" />
-                <marker date="1410897906000" expanded="true" signature="8084:8173" placeholder="{&quot;name&quot;: 'format'...}" />
-                <marker date="1410897906000" expanded="true" signature="8322:8767" placeholder="{&quot;type&quot;: 'toolbar'...}" />
-                <marker date="1410897906000" expanded="true" signature="8356:8760" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="8357:8550" placeholder="{&quot;type&quot;: 'combobox'...}" />
-                <marker date="1410897906000" expanded="true" signature="8551:8759" placeholder="{&quot;type&quot;: 'combobox'...}" />
-                <marker date="1410897906000" expanded="true" signature="8768:8986" placeholder="{&quot;type&quot;: 'toolbar'...}" />
-                <marker date="1410897906000" expanded="true" signature="8848:8958" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="8849:8906" placeholder="{&quot;name&quot;: 'increase-font'...}" />
-                <marker date="1410897906000" expanded="true" signature="8907:8957" placeholder="{&quot;name&quot;: 'decrease-font'...}" />
-                <marker date="1410897906000" expanded="true" signature="8987:10393" placeholder="{&quot;type&quot;: 'toolbar'...}" />
-                <marker date="1410897906000" expanded="true" signature="9046:10365" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="9047:9132" placeholder="{&quot;name&quot;: 'bold'...}" />
-                <marker date="1410897906000" expanded="true" signature="9133:9225" placeholder="{&quot;name&quot;: 'italic'...}" />
-                <marker date="1410897906000" expanded="true" signature="9226:9314" placeholder="{&quot;name&quot;: 'underline'...}" />
-                <marker date="1410897906000" expanded="true" signature="9315:9384" placeholder="{&quot;name&quot;: 'strikethrough'...}" />
-                <marker date="1410897906000" expanded="true" signature="9385:10278" placeholder="{&quot;name&quot;: 'superscript'...}" />
-                <marker date="1410897906000" expanded="true" signature="10279:10364" placeholder="{&quot;name&quot;: 'subscript'...}" />
-                <marker date="1410897906000" expanded="true" signature="10424:10600" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="10425:10469" placeholder="{&quot;name&quot;: 'case-font'...}" />
-                <marker date="1410897906000" expanded="true" signature="10470:10533" placeholder="{&quot;name&quot;: 'grow-font'...}" />
-                <marker date="1410897906000" expanded="true" signature="10534:10599" placeholder="{&quot;name&quot;: 'shrink-font'...}" />
-                <marker date="1410897906000" expanded="true" signature="10737:11278" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="10738:10823" placeholder="{&quot;name&quot;: 'slign-left'...}" />
-                <marker date="1410897906000" expanded="true" signature="10824:11090" placeholder="{&quot;name&quot;: 'align-center'...}" />
-                <marker date="1410897906000" expanded="true" signature="11091:11164" placeholder="{&quot;name&quot;: 'align-right'...}" />
-                <marker date="1410897906000" expanded="true" signature="11165:11277" placeholder="{&quot;name&quot;: 'align-justify'...}" />
-                <marker date="1410897906000" expanded="true" signature="11339:11435" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="11340:11375" placeholder="{&quot;name&quot;: 'bullets'...}" />
-                <marker date="1410897906000" expanded="true" signature="11376:11434" placeholder="{&quot;name&quot;: 'numbers'...}" />
-                <marker date="1410897906000" expanded="true" signature="11639:11821" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="11640:11730" placeholder="{&quot;name&quot;: 'find'...}" />
-                <marker date="1410897906000" expanded="true" signature="11731:11820" placeholder="{&quot;name&quot;: 'go'...}" />
-                <marker date="1410897906000" expanded="true" signature="12033:12199" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="12034:12130" placeholder="{&quot;name&quot;: 'selectall'...}" />
-                <marker date="1410897906000" expanded="true" signature="12131:12198" placeholder="{&quot;name&quot;: 'select-object'...}" />
-                <marker date="1410897906000" expanded="true" signature="12295:12505" placeholder="{&quot;title&quot;: 'Table'...}" />
-                <marker date="1410897906000" expanded="true" signature="12328:12484" placeholder="[...]" />
-                <marker date="1410897906000" expanded="true" signature="12329:12483" placeholder="{&quot;name&quot;: 'table'...}" />
-                <marker date="1410897906000" expanded="true" signature="12572:12719" placeholder="{&quot;name&quot;: 'picture'...}" />
-                <marker date="1410897906000" expanded="true" signature="12720:12794" placeholder="{&quot;name&quot;: 'clipart'...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../commandmaps/form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="270" column="9" selection-start="12045" selection-end="12045" vertical-scroll-proportion="-6.2083335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/forms.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="646" selection-end="646" vertical-scroll-proportion="-13.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exit-form.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../commandmaps/exit-form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="89" selection-end="649" vertical-scroll-proportion="-2.5">
+            <state line="139" column="23" selection-start="2974" selection-end="2974" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -209,18 +149,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/cmaps/settings.py" />
-        <option value="$PROJECT_DIR$/cmaps/local_settings.py" />
         <option value="$PROJECT_DIR$/templates/start.html" />
-        <option value="$PROJECT_DIR$/static/script.js" />
-        <option value="$PROJECT_DIR$/templates/landing.html" />
-        <option value="$PROJECT_DIR$/experiment/models.py" />
-        <option value="$PROJECT_DIR$/cmaps/urls.py" />
         <option value="$PROJECT_DIR$/templates/forms.html" />
         <option value="$PROJECT_DIR$/experiment/admin.py" />
-        <option value="$PROJECT_DIR$/experiment/views.py" />
-        <option value="$PROJECT_DIR$/templates/experiment.html" />
         <option value="$PROJECT_DIR$/static/ribbon.css" />
+        <option value="$PROJECT_DIR$/static/form-style.css" />
+        <option value="$PROJECT_DIR$/static/variabledata.js" />
+        <option value="$PROJECT_DIR$/templates/experiment.html" />
+        <option value="$PROJECT_DIR$/experiment/models.py" />
+        <option value="$PROJECT_DIR$/cmaps/urls.py" />
+        <option value="$PROJECT_DIR$/experiment/views.py" />
+        <option value="$PROJECT_DIR$/templates/landing.html" />
+        <option value="$PROJECT_DIR$/cmaps/local_settings.py" />
+        <option value="$PROJECT_DIR$/cmaps/settings.py" />
+        <option value="$PROJECT_DIR$/templates/experiment2.html" />
+        <option value="$PROJECT_DIR$/static/script.js" />
       </list>
     </option>
   </component>
@@ -351,12 +294,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -367,10 +310,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Django server.cmaps">
-    <configuration default="true" type="tests" factoryName="Unittests">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -379,15 +324,7 @@
       <module name="cmaps" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -413,6 +350,29 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cmaps" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -435,7 +395,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -497,26 +457,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="808" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.8" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25322813" sideWeight="0.8014493" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19855073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -580,182 +540,145 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/script.js">
+    <entry file="file://$PROJECT_DIR$/../commandmaps/ribbon-abstraction-test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
+        <state line="380" column="11" selection-start="1582" selection-end="16410" vertical-scroll-proportion="-209.625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/ribbon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/start.html">
+    <entry file="file://$PROJECT_DIR$/static/jquery.ribbon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="0.2189781">
+        <state line="88" column="70" selection-start="2566" selection-end="2571" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landing.html">
+    <entry file="file://$PROJECT_DIR$/static/ribbon-icon.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="42" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.9166667">
+        <state line="89" column="40" selection-start="2551" selection-end="2551" vertical-scroll-proportion="-10.115385">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmaps/settings.py">
+    <entry file="file://$PROJECT_DIR$/static/shortcuts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2036" selection-end="2036" vertical-scroll-proportion="-0.7307692">
-          <folding />
-        </state>
+        <state line="27" column="34" selection-start="741" selection-end="744" vertical-scroll-proportion="-5.3461537" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmaps/urls.py">
+    <entry file="file://$PROJECT_DIR$/static/form-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="59" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../commandmaps/exit-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="89" selection-end="649" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../commandmaps/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="9" selection-start="12045" selection-end="12045" vertical-scroll-proportion="-6.2083335">
+        <state line="20" column="19" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/variabledata.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1410897906000" expanded="true" signature="5181:5268" placeholder="{&quot;name&quot;: 'picture'...}" />
-            <marker date="1410897906000" expanded="true" signature="5269:5404" placeholder="{&quot;name&quot;: 'clipart'...}" />
-            <marker date="1410897906000" expanded="true" signature="5405:5574" placeholder="{&quot;name&quot;: 'shapes'...}" />
-            <marker date="1410897906000" expanded="true" signature="6031:6144" placeholder="{&quot;name&quot;: 'hyperlink'...}" />
-            <marker date="1410897906000" expanded="true" signature="7545:8266" placeholder="{&quot;title&quot;: 'Clipboard'...}" />
-            <marker date="1410897906000" expanded="true" signature="7586:8250" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="7587:7892" placeholder="{&quot;name&quot;: 'paste'...}" />
-            <marker date="1410897906000" expanded="true" signature="7736:7874" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="7737:7798" placeholder="{&quot;name&quot;: 'paste'...}" />
-            <marker date="1410897906000" expanded="true" signature="7799:7873" placeholder="{&quot;name&quot;: 'paste-special'...}" />
-            <marker date="1410897906000" expanded="true" signature="7893:8249" placeholder="{&quot;type&quot;: 'toolbar'...}" />
-            <marker date="1410897906000" expanded="true" signature="7957:8174" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="7958:8020" placeholder="{&quot;name&quot;: 'cut'...}" />
-            <marker date="1410897906000" expanded="true" signature="8021:8083" placeholder="{&quot;name&quot;: 'copy'...}" />
-            <marker date="1410897906000" expanded="true" signature="8084:8173" placeholder="{&quot;name&quot;: 'format'...}" />
-            <marker date="1410897906000" expanded="true" signature="8322:8767" placeholder="{&quot;type&quot;: 'toolbar'...}" />
-            <marker date="1410897906000" expanded="true" signature="8356:8760" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="8357:8550" placeholder="{&quot;type&quot;: 'combobox'...}" />
-            <marker date="1410897906000" expanded="true" signature="8551:8759" placeholder="{&quot;type&quot;: 'combobox'...}" />
-            <marker date="1410897906000" expanded="true" signature="8768:8986" placeholder="{&quot;type&quot;: 'toolbar'...}" />
-            <marker date="1410897906000" expanded="true" signature="8848:8958" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="8849:8906" placeholder="{&quot;name&quot;: 'increase-font'...}" />
-            <marker date="1410897906000" expanded="true" signature="8907:8957" placeholder="{&quot;name&quot;: 'decrease-font'...}" />
-            <marker date="1410897906000" expanded="true" signature="8987:10393" placeholder="{&quot;type&quot;: 'toolbar'...}" />
-            <marker date="1410897906000" expanded="true" signature="9046:10365" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="9047:9132" placeholder="{&quot;name&quot;: 'bold'...}" />
-            <marker date="1410897906000" expanded="true" signature="9133:9225" placeholder="{&quot;name&quot;: 'italic'...}" />
-            <marker date="1410897906000" expanded="true" signature="9226:9314" placeholder="{&quot;name&quot;: 'underline'...}" />
-            <marker date="1410897906000" expanded="true" signature="9315:9384" placeholder="{&quot;name&quot;: 'strikethrough'...}" />
-            <marker date="1410897906000" expanded="true" signature="9385:10278" placeholder="{&quot;name&quot;: 'superscript'...}" />
-            <marker date="1410897906000" expanded="true" signature="10279:10364" placeholder="{&quot;name&quot;: 'subscript'...}" />
-            <marker date="1410897906000" expanded="true" signature="10424:10600" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="10425:10469" placeholder="{&quot;name&quot;: 'case-font'...}" />
-            <marker date="1410897906000" expanded="true" signature="10470:10533" placeholder="{&quot;name&quot;: 'grow-font'...}" />
-            <marker date="1410897906000" expanded="true" signature="10534:10599" placeholder="{&quot;name&quot;: 'shrink-font'...}" />
-            <marker date="1410897906000" expanded="true" signature="10737:11278" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="10738:10823" placeholder="{&quot;name&quot;: 'slign-left'...}" />
-            <marker date="1410897906000" expanded="true" signature="10824:11090" placeholder="{&quot;name&quot;: 'align-center'...}" />
-            <marker date="1410897906000" expanded="true" signature="11091:11164" placeholder="{&quot;name&quot;: 'align-right'...}" />
-            <marker date="1410897906000" expanded="true" signature="11165:11277" placeholder="{&quot;name&quot;: 'align-justify'...}" />
-            <marker date="1410897906000" expanded="true" signature="11339:11435" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="11340:11375" placeholder="{&quot;name&quot;: 'bullets'...}" />
-            <marker date="1410897906000" expanded="true" signature="11376:11434" placeholder="{&quot;name&quot;: 'numbers'...}" />
-            <marker date="1410897906000" expanded="true" signature="11639:11821" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="11640:11730" placeholder="{&quot;name&quot;: 'find'...}" />
-            <marker date="1410897906000" expanded="true" signature="11731:11820" placeholder="{&quot;name&quot;: 'go'...}" />
-            <marker date="1410897906000" expanded="true" signature="12033:12199" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="12034:12130" placeholder="{&quot;name&quot;: 'selectall'...}" />
-            <marker date="1410897906000" expanded="true" signature="12131:12198" placeholder="{&quot;name&quot;: 'select-object'...}" />
-            <marker date="1410897906000" expanded="true" signature="12295:12505" placeholder="{&quot;title&quot;: 'Table'...}" />
-            <marker date="1410897906000" expanded="true" signature="12328:12484" placeholder="[...]" />
-            <marker date="1410897906000" expanded="true" signature="12329:12483" placeholder="{&quot;name&quot;: 'table'...}" />
-            <marker date="1410897906000" expanded="true" signature="12572:12719" placeholder="{&quot;name&quot;: 'picture'...}" />
-            <marker date="1410897906000" expanded="true" signature="12720:12794" placeholder="{&quot;name&quot;: 'clipart'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.083333336">
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/forms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="646" selection-end="646" vertical-scroll-proportion="-13.75">
+        <state line="139" column="23" selection-start="2974" selection-end="2974" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../commandmaps/ribbon-abstraction-test.html">
+    <entry file="file://$PROJECT_DIR$/cmaps/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="379" column="11" selection-start="1571" selection-end="16434" vertical-scroll-proportion="-209.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="389" selection-end="503" vertical-scroll-proportion="0.0">
+        <state line="12" column="47" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/experiment/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="18" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0">
+        <state line="204" column="19" selection-start="7504" selection-end="7504" vertical-scroll-proportion="-4.7636366">
           <folding>
             <element signature="e#26#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/experiment.html">
+    <entry file="file://$PROJECT_DIR$/templates/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="23" selection-start="1890" selection-end="1895" vertical-scroll-proportion="-3.9">
-          <folding>
-            <element signature="n#style#0;n#text#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery.ribbon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="70" selection-start="2566" selection-end="2571" vertical-scroll-proportion="-13.576923">
+        <state line="86" column="0" selection-start="4123" selection-end="4123" vertical-scroll-proportion="-25.8">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/ribbon.css">
+    <entry file="file://$PROJECT_DIR$/cmaps/local_settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="446" selection-end="446" vertical-scroll-proportion="0.53892213">
+        <state line="15" column="12" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmaps/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="12" selection-start="785" selection-end="785" vertical-scroll-proportion="-4.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/experiment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="26" selection-start="2488" selection-end="2488" vertical-scroll-proportion="-5.78">
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#0;n#h4#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#h4#1;n#div#0;n#form#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="35" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/experiment2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="51" selection-start="5274" selection-end="5274" vertical-scroll-proportion="-43.2">
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#0;n#h4#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#h4#1;n#div#0;n#form#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="897" selection-end="897" vertical-scroll-proportion="0.36272544">
           <folding />
         </state>
       </provider>

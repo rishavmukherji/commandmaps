@@ -16,14 +16,6 @@
 
     <!-- Custom CSS -->
     <link href="{{ STATIC_URL }}landing/css/one-page-wonder.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
@@ -31,35 +23,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <!--
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
-            </div>
-            -->
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <!--
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            -->
-            <!-- /.navbar-collapse -->
+            
         </div>
         <!-- /.container -->
     </nav>
@@ -68,24 +32,25 @@
     <header class="header-image">
         <div class="headline">
             <div class="container">
-                <h1>CommandMaps</h1>
-                <h4>Andrew Mauboussin and Rishav Mukherji</h4>
+                <h2>How Does Your Spatial Memory Compare?</h2>
+                <h3><b>Compare your score with Harvard Students' scores!</b></h3>
+                <h3>Experiment created by <a href="www.linkedin.com/in/amauboussin">Andrew Mauboussin</a> and <a href ="www.linkedin.com/in/rishavmukherji">Rishav Mukherji</a></h3>
             </div>
         </div>
     </header>
 
     <!-- Page Content -->
     <div class="container">
-
+        <h3> <a href="#test" class="take-test" style="margin-bottom: -100%; margin-left: 45%;"> Take the test</a>
         <hr class="featurette-divider">
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
             <img class="featurette-image  img-responsive pull-right" src="http://2.bp.blogspot.com/-83GIo9GnjTE/UE_oSEH5SuI/AAAAAAAAACM/axjn_Y1hYWo/s1600/pic.png" style="width: 500px; height: 500px;">
-            <h2 class="featurette-heading">Use of Spatial
-                <span class="text-muted">Memory Eases Navigation</span>
+            <h2 class="featurette-heading">Does use of Spatial Memory
+                <span class="text-muted">Ease Navigation For You?</span>
             </h2>
-            <p class="lead">No more searching through different tabs and menus to find what you are looking for. No more hunting in different areas because the buttons automatically change places. CommandMaps is static and shows you the most important options all in one place - and they remain in the same place however many times to use it.</p>
+            <p class="lead">Do you operate more on visual memory? Do you usually remember where things after looking at them once? If yes, maybe your computer could do with an interface change. Take the test to find out!</p>
         </div>
 
         <hr class="featurette-divider">
@@ -93,10 +58,10 @@
         <!-- Second Featurette -->
         <div class="featurette" id="services">
             <img class="featurette-image img-responsive pull-left" src="http://figures.boundless.com/10808/raw/organization-chart-wide01.svg" style="width: 500px; height: 330px;">
-            <h2 class="featurette-heading">Hierarchy Flattening To
-                <span class="text-muted">Improve GUI Performance</span>
+            <h2 class="featurette-heading">Does Hierarchy Flattening
+                <span class="text-muted">Improve Your GUI Performance?</span>
             </h2>
-            <p class="lead">Think of all the different tabs in Microsoft Word. CommandMaps flattens them all in one simple structure so that you can find what you need - when you need it.</p>
+            <p class="lead">Do you prefer an always present ribbon to a hotkey-operated interface that appears when you want? Does it actually make a difference? Find out by taking the test!</p>
         </div>
 
         <hr class="featurette-divider">
@@ -104,22 +69,19 @@
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
             <img class="featurette-image img-responsive pull-right" src="http://pad2.whstatic.com/images/d/dd/Create-Labels-Using-Microsoft-Word-2007-Step-1.jpg">
-            <h2 class="featurette-heading">Use CommandMaps To
-                <span class="text-muted">Find Out More</span>
+            <h2 class="featurette-heading">Take the test to find out what interface is better for you!</span>
             </h2>
             <p class="lead">
-                Take the test! Use both Microsoft's Ribbon and then the CommandMap interface. Compare the results to see what works best for you. 
+               Use both Microsoft's Ribbon and then the CommandMap interface. Compare the results to see what works best for you. Compare yourself to the performance of current Harvard students to see if you're faster. It should take less than 5 minutes!
                 <br> <br>
-                <b> Directions: </b>
-                <ul>
-                    <li> Once you click "Take the Test" button, it will take you to the test page. </li>
-                    <li> The test page will feature the CommandMaps on the top and the MS ribbon on the bottom. </li>
-                    <li> On the right side of the page, there will be a function named that you will have to find and click on both interfaces. </li>
-                    <li> Once you click on the right function, the next one will appear on the list. You will need to do this a total of ten times to finis h the test. It should take about two minutes. </li>
-                </ul>
-
-                <a href="/go" class="take-test">Take the Test!</a>
-
+                
+                <form name="consentForm" action="http://commandmaps279.herokuapp.com/go" style="margin-top:-3%;">
+                    
+                    <input type="checkbox" required name="consent" value="consent"> <a href="{{ STATIC_URL }}CommandMapConsentForm.doc"> I consent to participate in this research study </a>
+                        
+                    <a name="test"> </a>
+                    <input type="SUBMIT" class ="take-test" value="Take the Test" style="margin-top:2%;"> 
+                </form>
             </p>
         </div>
 
@@ -129,7 +91,6 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>CS 279 - Assignment 1</p>
                 </div>
             </div>
         </footer>
