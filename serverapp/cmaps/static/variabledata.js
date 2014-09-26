@@ -827,7 +827,7 @@ var dictqueue = [
 	{name:'smartart', text:'SmartArt', group:'insert'},
 	{name:'cut', text:'Cut', group:'home'},
 	{name:'copy', text:'Copy', group:'home'},
-	{name:'format', text:'Format',, group:'home'},
+	{name:'format', text:'Format', group:'home'},
 	{name:'bold', text:'Bold', group:'home'},
 	{name:'strikethrough', text:'Strikethrough', group:'home'},
 	{name:'superscript', text:'Superscript', group:'home'},

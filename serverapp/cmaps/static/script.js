@@ -34,3 +34,7 @@ function button_pressed (name, target){
 }
 
 init_queue();
+
+function showCode() {
+	document.getElementById('mechanicalturk').innerHTML += '359588';
+}

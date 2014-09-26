@@ -19,6 +19,7 @@
 	<script type="text/javascript" src="../static/jquery.ribbon.js"></script>
 	<script type="text/javascript" src="../static/variabledata.js"></script>
 	<script type="text/javascript" src="../static/shortcuts.js"></script>
+	<script type="text/javascript" src="../static/script.js"></script>
 		
 
 	<script type="text/javascript">
@@ -98,6 +99,8 @@
 		<!-- COMMAND MAPS -->
 		<div id="commandmaps">
 			<button id = "showCommandMaps" onclick="showMaps();"> CommandMaps </button>
+			<br/>
+			<h3> <b> Use the "x" button on your keyboard to open/close the CommandMaps interface </b> <h3>
 			<div id="ribbon-home">
 				<div id="rr" style="width:700px;" ></div>
 			</div>
@@ -783,7 +786,9 @@
 		<div id="thankyou" style="margin-top:0%;">
 			<form class="form-container">
 				<div class="form-title">
-					<h2>Thank You For Participating</h2>
+					<h2>Thank You For Participating.</h2>
+					<br/>
+					<h3 id="mechanicalturk"> In case you used Mechanical Turk, your code is: </h3>
 				</div>
 			</form>
 		</div>
@@ -822,6 +827,9 @@
         document.getElementById(div_id).style.display = 'block';
         if (div_id == 'ribbon' || div_id == 'commandmaps'){
             document.getElementById('target').style.display = 'block';
+        }
+        if(div_id == 'thankyou'){
+        	showCode();
         }
     }
 
