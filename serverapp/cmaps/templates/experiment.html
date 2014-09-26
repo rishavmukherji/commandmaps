@@ -12,80 +12,127 @@
 	<link rel="stylesheet" type="text/css" href="../static/themes/icon.css">
 	<link rel="stylesheet" type="text/css" href="../static/ribbon.css">
 	<link rel="stylesheet" type="text/css" href="../static/ribbon-icon.css">
+	<link rel="stylesheet" type="text/css" href="../static/form-style.css">
 
-    <link rel="stylesheet" type="text/css" href="../static/form-style.css">
 	<script type="text/javascript" src="../static/jquery.min.js"></script>
 	<script type="text/javascript" src="../static/jquery.easyui.min.js"></script>
 	<script type="text/javascript" src="../static/jquery.ribbon.js"></script>
 	<script type="text/javascript" src="../static/variabledata.js"></script>
 	<script type="text/javascript" src="../static/shortcuts.js"></script>
 	<script type="text/javascript" src="../static/script.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 		
 
 	<script type="text/javascript">
 		
 		// function to populate the ribbon interface
-			$(function(){
-				$('#rr').ribbon({
-					data:home
-				});
+		$(function(){
+			$('#rr').ribbon({
+				data:home
 			});
-			$(function(){
-				$('#rr2').ribbon({
-					data:insert
-				});
+		});
+		$(function(){
+			$('#rr2').ribbon({
+				data:insert
 			});
-			$(function(){
-				$('#rr3').ribbon({
-					data:layout
-				});
+		});
+		$(function(){
+			$('#rr3').ribbon({
+				data:layout
 			});
-			$(function(){
-				$('#rr4').ribbon({
-					data:review
-				});
+		});
+		$(function(){
+			$('#rr4').ribbon({
+				data:review
 			});
+		});
 
-			$(function(){
-				$('#rr5').ribbon({
-					data:data
-				});
+		$(function(){
+			$('#rr5').ribbon({
+				data:data
 			});
+		});
 
-			function showMaps() {
-				var element = document.getElementById('ribbon-home');
-				if (element.style.display == 'none')
-					element.style.display = 'block';
-				else
-					element.style.display = 'none';
+		function showMaps() {
+			var element = document.getElementById('ribbon-home');
+			if (element.style.display == 'none')
+				element.style.display = 'block';
+			else
+				element.style.display = 'none';
 
-				var element = document.getElementById('ribbon-insert');
-				if (element.style.display == 'none')
-					element.style.display = 'block';
-				else
-					element.style.display = 'none';
+			var element = document.getElementById('ribbon-insert');
+			if (element.style.display == 'none')
+				element.style.display = 'block';
+			else
+				element.style.display = 'none';
 
-				var element = document.getElementById('ribbon-layout');
-				if (element.style.display == 'none')
-					element.style.display = 'block';
-				else
-					element.style.display = 'none';
+			var element = document.getElementById('ribbon-layout');
+			if (element.style.display == 'none')
+				element.style.display = 'block';
+			else
+				element.style.display = 'none';
 
-				var element = document.getElementById('ribbon-review');
-				if (element.style.display == 'none')
-					element.style.display = 'block';
-				else
-					element.style.display = 'none';
+			var element = document.getElementById('ribbon-review');
+			if (element.style.display == 'none')
+				element.style.display = 'block';
+			else
+				element.style.display = 'none';
 
-			}
-			
-			function initKeys() {
-	            shortcut.add("x", function() {
-	                showMaps();
-	            })
-	        }
+		}
+		
+		function initKeys() {
+            shortcut.add("x", function() {
+                showMaps();
+            })
+        }
 
-			window.onload = initKeys;
+		window.onload = initKeys;
+
+		// Load the Visualization API and the piechart package.
+      	google.load('visualization', '1.0', {'packages':['corechart']});
+
+	      // Set a callback to run when the Google Visualization API is loaded.
+	      google.setOnLoadCallback(drawChart);
+
+	      // Callback that creates and populates a data table,
+	      // instantiates the pie chart, passes in the data and
+	      // draws it.
+	      function drawChart() {
+
+	      	var userData = showResults();
+	        // Create the data table.
+	        var data1 = new google.visualization.DataTable();
+	        data1.addColumn('string', 'Topping');
+	        data1.addColumn('number', 'Average time in seconds');
+	        data1.addRows([
+	          ['You', userData['cmap_all']],
+	          ['Harvard Students', 1]
+	        ]);
+
+	        // Create the data table.
+	        var data2 = new google.visualization.DataTable();
+	        data2.addColumn('string', 'Topping');
+	        data2.addColumn('number', 'Average time in seconds');
+	        data2.addRows([
+	          ['You', userData['ribbon_all']],
+	          ['Harvard Students', 1]
+	        ]);
+	        // Set chart options
+	        var options1 = {'title':'Average time taken to find targets on CommandMaps',
+	                       'width':600,
+	                       'height':300};
+
+	        var options2 = {'title':'Average time taken to find targets on the Ribbon',
+	                       'width':600,
+	                       'height':300};
+
+	        // Instantiate and draw our first chart, passing in some options.
+	        var chart1 = new google.visualization.BarChart(document.getElementById('chart_div1'));
+	        chart1.draw(data1, options1);
+
+	        var chart2 = new google.visualization.BarChart(document.getElementById('chart_div2'));
+	        chart2.draw(data2, options2);
+	    }
 	</script>
 
     <style>
@@ -782,6 +829,12 @@
 			</form>
 		</div>
 
+		<!-- RESULTS -->
+		<div id="results">
+			<h2 style="margin-left:40%;"> Your Spatial Memory Score </h2>
+		    <div id="chart_div1" style="margin-left:27%;"></div>
+		    <div id="chart_div2" style="margin-left:27%;"></div>
+		</div>
 		<!-- THANK YOU -->
 		<div id="thankyou" style="margin-top:0%;">
 			<form class="form-container">
@@ -824,7 +877,9 @@
         document.getElementById('nasa-tlx-1').style.display = 'none';
         document.getElementById('nasa-tlx-2').style.display = 'none';
         document.getElementById('target').style.display = 'none';
+        document.getElementById('results').style.display = 'none';
         document.getElementById(div_id).style.display = 'block';
+
         if (div_id == 'ribbon' || div_id == 'commandmaps'){
             document.getElementById('target').style.display = 'block';
         }
@@ -908,7 +963,13 @@
 
     }
 
-    show('firstform')
+    function showResults() {
+    	$.getJSON('commandmaps279.herokuapp.com/viewuser/'.concat(id), function(userData){
+    		return userData;
+    	}
+    }
+
+    show('firstform');
     init();
 </script>
 
